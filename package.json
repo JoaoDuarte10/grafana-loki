@@ -1,0 +1,16 @@
+{
+  "name": "grafana-loki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "node ./src/logger-loki.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^3.8.2",
+    "winston-loki": "^6.0.6"
+  }
+}
