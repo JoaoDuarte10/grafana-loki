@@ -322,7 +322,7 @@
                         "uid": "P8E80F9AEF21F6940"
                     },
                     "editorMode": "builder",
-                    "expr": "{application=\"$application\", level=\"$level_filter\"} |= `context` |= `$context_filter` |= `referrer` |= `$referrer_filter`",
+                    "expr": "{application=\"$application\", level=\"$level_filter\"} |= `referrer` |= `$referrer_filter`",
                     "legendFormat": "Info",
                     "queryType": "range",
                     "refId": "A"
