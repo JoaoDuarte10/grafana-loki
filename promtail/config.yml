@@ -16,10 +16,8 @@ scrape_configs:
         labels:
           job: promtail
           __path__: /var/log/*log
-  - job_name: nginx
-    static_configs:
       - targets:
           - localhost
         labels:
-          job: nginx
-          __path__: ../nginx/log/access.log
+          job: app
+          __path__: /logs/*log
